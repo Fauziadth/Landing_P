@@ -10,7 +10,7 @@ import Portofolio from './Page/Portofolio';
 const App = () => {
     return (
         <div className="App">
-            <Router>
+            <Router basename="/Landing_P">
                 <nav id="navbar">
                     <NavBar/>
                 </nav>
