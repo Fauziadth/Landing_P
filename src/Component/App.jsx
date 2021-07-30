@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/App.scss';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route } from "react-router-dom";
 import NavBar from './Content/NavBar';
 import Home from './Page/Home';
 import Contact from './Page/Contact';
@@ -19,6 +19,7 @@ const App = () => {
                 <Route path="/portofolio" component={Portofolio} />
                 <Route path="/catalogue" component={Catalogue} />
                 <Route path="/contact" component={Contact} />
+                <Redirect to="/" />
             </Router>
         </div>
     );

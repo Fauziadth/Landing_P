@@ -18,7 +18,7 @@ const Home = () => {
                 <div>
                     <div>
                     </div>    
-                    <h1>{"Landing Page Zakky"}</h1>
+                    <h1>{"Landing Page"}</h1>
                     <IconContext.Provider value={{size : '30px'}}>
                         <div className='iconContainer'>
                             {dataLink.map((data, idx) => iconLink(data, idx))}
@@ -32,7 +32,7 @@ const Home = () => {
                 <Fade left>
                     <div className="profileContainer inner">
                         <div className="profile about">
-                            <h3>{"Hi there! Nice to meet you!"}</h3>
+                            <h3>{"Lorem ipsum dolor sit amet!"}</h3>
                             <div className='par'>
                                 <div>
                                     <p>{"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}</p>
