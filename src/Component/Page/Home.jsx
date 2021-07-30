@@ -51,7 +51,7 @@ const Home = () => {
             <div className= "containers">
                 <Fade right>
                     <div className='inner'>
-                        <h3>{"Lorem Ipsum 2"}</h3>
+                        <h3>{"Lorem Ipsum"}</h3>
                         <SkillBar/>
                     </div>
                 </Fade>
@@ -60,7 +60,7 @@ const Home = () => {
             <div id = "Experiences"  className='containers'>
                 <Fade left>
                     <div className='inner'>
-                        <h3>{"Lorem Ipsum 3"}</h3>
+                        <h3>{"Lorem Ipsum"}</h3>
                     </div>
                 </Fade>
             </div>
