@@ -13,6 +13,10 @@ $White1D : #292929;
 $White2D : #333333;
 $ItemsBoxD : #494949;
 
+$Blue : #1c5574;
+$Orange : #f68a12;
+
+
 body {
   background-color : #f8f8f8;
   color: #4863A0;
@@ -37,6 +41,10 @@ body {
       filter: invert(1);
     }
   }
+}
+
+* {
+  margin: 0;
 }
 
 
@@ -199,33 +207,41 @@ img.profPics{
   text-align: left;
   border-radius: 1em;
   
-  box-shadow: 0px 0px 3px 1px var(--TextColor);
-  display: grid;
-  grid-template-columns: 30% 70%;
-  grid-template-rows: 25px auto;
+  display: flex;
+  flex-direction: column;
   transition: all 0.2s ease-in-out;
 
   // &:hover { 
   //   transform: scale(1.1);
   // }
 
-
-  img{
-    max-width: 80%;
+  .skill-img{
+    position: relative;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: #{$Orange};
     justify-self: center;
-    align-self: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img{
+    max-width: 100%;
+    max-height: 100%;
   }
 
   h3{
     font-size: 18px;
     letter-spacing: 0.5px;
-    margin: 5px;
-    padding-top: 0;
-    grid-column-end: span 2;
-    text-align: center;
+    padding:0.5em 0;
   }
   ul{
-    padding-inline-start: 20px;
+    padding: 5px;
+    list-style-type: none;
+    padding-inline-start: 0px;
   }
 }
 

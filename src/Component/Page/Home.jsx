@@ -32,7 +32,7 @@ const Home = () => {
                 <Fade left>
                     <div className="profileContainer inner">
                         <div className="profile about">
-                            <h3>{"Lorem ipsum dolor sit amet!"}</h3>
+                            <h2>{"Lorem ipsum dolor sit amet!"}</h2>
                             <div className='par'>
                                 <div>
                                     <p>{"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}</p>
@@ -51,7 +51,7 @@ const Home = () => {
             <div className= "containers">
                 <Fade right>
                     <div className='inner'>
-                        <h3>{"Lorem Ipsum"}</h3>
+                        <h2>{"Capabilities"}</h2>
                         <SkillBar/>
                     </div>
                 </Fade>
@@ -60,7 +60,7 @@ const Home = () => {
             <div id = "Experiences"  className='containers'>
                 <Fade left>
                     <div className='inner'>
-                        <h3>{"Lorem Ipsum"}</h3>
+                        <h2>{"Lorem Ipsum"}</h2>
                     </div>
                 </Fade>
             </div>
