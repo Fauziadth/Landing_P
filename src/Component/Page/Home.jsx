@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
 import { IconContext } from 'react-icons';
-import SkillBar from '../Content/SkillBar';
-import { dataLink } from '../../content/data';
 import Fade from 'react-reveal';
+import ValuesBar from '../Content/ValuesBar';
+import SkillBar from '../Content/SkillBar';
 
+import { dataLink } from '../../content/data';
 import may from '../../Pics/May2.png'
 
 
@@ -60,7 +61,8 @@ const Home = () => {
             <div id = "Experiences"  className='containers'>
                 <Fade left>
                     <div className='inner'>
-                        <h2>{"Lorem Ipsum"}</h2>
+                        <h2>{"Values"}</h2>
+                        <ValuesBar/>
                     </div>
                 </Fade>
             </div>

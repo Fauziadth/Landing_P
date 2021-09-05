@@ -107,4 +107,11 @@ export const dataSkill = [
         "Industrial Internet of Things",
       ]
     },
-  ]
+]
+
+  
+export const valuesList = [
+  "Simplify digital development & renewable energy implementation to achieve business sustainability",
+  "Design and execute it with high precissions",
+  "High deliverability"
+]

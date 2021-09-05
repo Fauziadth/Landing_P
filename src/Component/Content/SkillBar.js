@@ -21,8 +21,8 @@ const SkillItem = ({ data }) => (
 const SkillBar = () => {
   
   return (
-    <div className="skills">
-      <div className="skills-container">
+    <div className="part">
+      <div className="inner w9">
           {(skillData.length > 0)? skillData.map((data, idx) => (
             <SkillItem data={data} key={idx} />
             )):

@@ -62,7 +62,7 @@ nav{
   justify-content: center;
   
   .inner {
-    width : 900px;
+    width : 970px;
     min-width : 50%;
     max-width : 90%;
     padding: 5px;
@@ -183,20 +183,46 @@ img.profPics{
 }
 
 
-/* skills */
-
-.skills-container{
+.part {
   display: flex;
   flex-wrap: wrap;
-  width : 90%;
-  justify-content: center
-}
+  justify-content: center;
 
-.skills {
+  &>div.inner{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    &.w9{
+      width : 90%;
+    }
+    &.w8{
+      width : 80%;
+    }
+    &.left{
+      justify-content: left;
+    }
+    &.column{
+      flex-direction: column;
+    }
   }
+}
+
+.value_item{
+  display: grid;
+  grid-template-columns: 40px auto;
+  grid-column-gap: 5px;
+  font-size: 20px;
+  padding: 10px;
+
+  img{
+    width: 40px;
+  }
+
+  &>div{
+    margin-top: 7px;
+  }
+}
 
 .skills-content{
   padding: 5px;
@@ -247,10 +273,11 @@ img.profPics{
 
 .containers{
   margin : 0px;
-  padding: 100px 10px 100px 10px;
+  padding: 50px 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  color : var(--TextColor);
 
   .inner {
     width : 900px;
@@ -258,16 +285,6 @@ img.profPics{
     max-width : 90%;
     padding: 5px;
     margin: 0px;
-  }
-
-  &:nth-child(even){
-    background-color: var(--White1);
-    color : var(--TextColor);
-  }
-  
-  &:nth-child(odd){
-    background-color: var(--White2);
-    color: var(--TextColor);
   }
   
   &.main{
