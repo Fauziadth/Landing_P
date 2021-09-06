@@ -6,6 +6,7 @@ import SkillBar from '../Content/SkillBar';
 
 import { dataLink } from '../../content/data';
 import may from '../../Pics/May2.png'
+import WorkProcessBar from '../Content/WorkProcessBar';
 
 
 const iconLink = (data, idx) => (
@@ -63,6 +64,15 @@ const Home = () => {
                     <div className='inner'>
                         <h2>{"Values"}</h2>
                         <ValuesBar/>
+                    </div>
+                </Fade>
+            </div>
+
+            <div id = "Experiences"  className='containers'>
+                <Fade right>
+                    <div className='inner'>
+                        <h2>{"Work Process"}</h2>
+                        <WorkProcessBar/>
                     </div>
                 </Fade>
             </div>

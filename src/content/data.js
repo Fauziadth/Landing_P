@@ -115,3 +115,22 @@ export const valuesList = [
   "Design and execute it with high precissions",
   "High deliverability"
 ]
+
+export const workProcess = [
+  {
+    title : 'Investigate',
+    desc : 'Actively observe each client’s business and inquiry into in detail; examine systematically'
+  },
+  {
+    title : 'Navigate',
+    desc : "Process plan and direct the route of problem into specific solution"
+  },
+  {
+    title : 'Develop',
+    desc : "Transform idea to bring out the possibilities of product and services or bring to a more advanced and effective"
+  },
+  {
+    title : 'Integrate',
+    desc : "Ability to make into a whole by bringing all parts together as one solution"
+  }
+]
