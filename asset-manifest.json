@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/Landing_P/static/css/main.98ee0874.chunk.css",
-    "main.js": "/Landing_P/static/js/main.c2fa9792.chunk.js",
-    "main.js.map": "/Landing_P/static/js/main.c2fa9792.chunk.js.map",
+    "main.css": "/Landing_P/static/css/main.78c39889.chunk.css",
+    "main.js": "/Landing_P/static/js/main.9c28dbe1.chunk.js",
+    "main.js.map": "/Landing_P/static/js/main.9c28dbe1.chunk.js.map",
     "runtime~main.js": "/Landing_P/static/js/runtime~main.8f48f71a.js",
     "runtime~main.js.map": "/Landing_P/static/js/runtime~main.8f48f71a.js.map",
-    "static/js/2.2e8e0421.chunk.js": "/Landing_P/static/js/2.2e8e0421.chunk.js",
-    "static/js/2.2e8e0421.chunk.js.map": "/Landing_P/static/js/2.2e8e0421.chunk.js.map",
+    "static/css/2.b24e9485.chunk.css": "/Landing_P/static/css/2.b24e9485.chunk.css",
+    "static/js/2.0dc24322.chunk.js": "/Landing_P/static/js/2.0dc24322.chunk.js",
+    "static/js/2.0dc24322.chunk.js.map": "/Landing_P/static/js/2.0dc24322.chunk.js.map",
     "index.html": "/Landing_P/index.html",
-    "precache-manifest.c47d85888aef39f2735a69bdaf7f2569.js": "/Landing_P/precache-manifest.c47d85888aef39f2735a69bdaf7f2569.js",
+    "precache-manifest.29d507b60feb3cfcef3dc352d1e19fd0.js": "/Landing_P/precache-manifest.29d507b60feb3cfcef3dc352d1e19fd0.js",
     "service-worker.js": "/Landing_P/service-worker.js",
-    "static/css/main.98ee0874.chunk.css.map": "/Landing_P/static/css/main.98ee0874.chunk.css.map"
+    "static/css/2.b24e9485.chunk.css.map": "/Landing_P/static/css/2.b24e9485.chunk.css.map",
+    "static/css/main.78c39889.chunk.css.map": "/Landing_P/static/css/main.78c39889.chunk.css.map",
+    "static/media/Logo_main.png": "/Landing_P/static/media/Logo_main.f471dfa9.png",
+    "static/media/Partner_1.png": "/Landing_P/static/media/Partner_1.1c22654e.png",
+    "static/media/Partner_2.png": "/Landing_P/static/media/Partner_2.7562a222.png",
+    "static/media/Partner_3.png": "/Landing_P/static/media/Partner_3.e2513ddb.png",
+    "static/media/Partner_4.png": "/Landing_P/static/media/Partner_4.784e4e2f.png",
+    "static/media/Partner_5.png": "/Landing_P/static/media/Partner_5.2894d127.png"
   }
 }
