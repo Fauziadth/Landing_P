@@ -3,7 +3,7 @@ import { dataSkill as skillData } from '../../content/data';
 
 
 const SkillItem = ({ data }) => (
-  <div className="skills-content col-4">
+  <div className="skills-content col-md-4">
     <div className="skill-img flex-center">
       <img className="dark-invert" src={data.pics.url} alt={data.pics.alt}></img>
     </div>

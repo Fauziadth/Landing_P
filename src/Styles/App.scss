@@ -1,5 +1,5 @@
 $TextColor : #333333;
-$PrimaryColor : #43A8B4;
+$PrimaryColor : #cdd1ce;
 $AccentColor : #ebf2f7;
 $White1 : #ebf2f7;
 $White2 : #fdfeff;
@@ -43,10 +43,9 @@ body {
   }
 }
 
-* {
+*, h3 {
   margin: 0;
 }
-
 
 nav{
   padding: 0;
@@ -88,7 +87,7 @@ nav{
       
       a{
         display: block;
-        color: var(--AccentColor);
+        color: #{$PrimaryColorD};
         text-decoration: none;
         background-color: transparent;
         border: none;
@@ -97,7 +96,7 @@ nav{
       }
 
       a:hover {
-        color: var(--White2);
+        color: #{$AccentColorD};
       }
      
       // a.anchor {
@@ -224,6 +223,14 @@ img.profPics{
   }
 }
 
+.partner_item {
+  padding: 0 30px;
+
+  img {
+    height: 140px;
+  }
+}
+
 .wp_item{
   padding: 10px;
  
@@ -299,15 +306,13 @@ img.profPics{
 }
 
 .containers{
-  margin : 0px;
   padding: 25px 10px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   color : var(--TextColor);
 
   .inner {
-    width : 900px;
+    width : 1100px;
     min-width : 50%;
     max-width : 90%;
     padding: 5px;
@@ -315,9 +320,12 @@ img.profPics{
   }
   
   &.main{
+    height: 500px;
+    padding: 50px;
     text-align: center;
     background-color: var(--PrimaryColor);
-    color: var(--AccentColor);
+    color: #{$PrimaryColorD};
+    border-radius: 0 0 40px 40px;
   }
 }
 

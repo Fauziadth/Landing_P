@@ -1,31 +1,27 @@
 import React, { Fragment } from 'react';
-import { IconContext } from 'react-icons';
 import Fade from 'react-reveal';
 import ValuesBar from '../Content/ValuesBar';
 import SkillBar from '../Content/SkillBar';
 
-import { dataLink } from '../../content/data';
+import Logo from '../../Pics/Logo_main.png'
 import may from '../../Pics/May2.png'
 import WorkProcessBar from '../Content/WorkProcessBar';
-
-
-const iconLink = (data, idx) => (
-    <a href={data.lnk} key={idx}><data.icon className='icon'/></a>
-)
+import { Button } from 'antd';
+import PartnerBar from '../Content/PartnerBar';
 
 const Home = () => {
     return (
         <Fragment>
             <div id="Welcome" className="containers main">
-                <div>
-                    <div>
+                <div className="row">
+                    <div className='col-6 align-self-center'>
+                      <h1>Input Slogan Here</h1>
+
+                      <Button type="ghost">CLick me</Button>
                     </div>    
-                    <h1>{"Landing Page"}</h1>
-                    <IconContext.Provider value={{size : '30px'}}>
-                        <div className='iconContainer'>
-                            {dataLink.map((data, idx) => iconLink(data, idx))}
-                        </div>
-                    </IconContext.Provider>
+                    <div className='col-6 align-self-center'>
+                        <img src={Logo} alt={'pics'} style={{height:"200px"}}/>
+                    </div>
                 </div>
             </div>  
             
@@ -68,11 +64,20 @@ const Home = () => {
                 </Fade>
             </div>
 
-            <div id = "Experiences"  className='containers'>
+            <div id = "Process"  className='containers'>
                 <Fade right>
                     <div className='inner'>
                         <h2>{"Work Process"}</h2>
                         <WorkProcessBar/>
+                    </div>
+                </Fade>
+            </div>
+
+            <div id = "Partner"  className='containers'>
+                <Fade right>
+                    <div className='inner'>
+                        <h2>{"Our Partner"}</h2>
+                        <PartnerBar/>
                     </div>
                 </Fade>
             </div>

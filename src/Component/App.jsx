@@ -1,6 +1,7 @@
 import React from 'react';
-import '../Styles/App.scss';
+import 'antd/dist/antd.css';
 import '../Styles/bootstrap-grid.css';
+import '../Styles/App.scss';
 import { BrowserRouter as Router, Redirect, Route } from "react-router-dom";
 import NavBar from './Content/NavBar';
 import Home from './Page/Home';
