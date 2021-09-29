@@ -1,35 +1,35 @@
 import React from 'react';
 import { dataSkill as skillData } from '../../content/data';
+import Wrapper from '../Part/Wrapper';
 
 
 const SkillItem = ({ data }) => (
-  <div className="skills-content col-md-4">
-    <div className="skill-img flex-center">
-      <img className="dark-invert" src={data.pics.url} alt={data.pics.alt}></img>
-    </div>
+  <div className="col-md-4 skill-card">
+    <div>
+      <div className="img">
+        <img className="dark-invert" src={data.pics.url} alt={data.pics.alt}></img>
+      </div>
 
-    <h3>{data.title}</h3>
-    
-    <ul>
-      {data.usage.map((dat, idx)=>(
-        <li key ={idx}>{dat}</li>
-      ))}
-    </ul>
+      <h3 style={{fontWeight : '600', color : 'black'}}>{data.title}</h3>
+      
+        {data.usage.map((dat, idx)=>(
+          <div key ={idx}>{dat}</div>
+        ))}
+      </div>
   </div>
 );
 
 const SkillBar = () => {
   
   return (
-    <div className="part">
-      <div className="inner w9">
-          {(skillData.length > 0)? skillData.map((data, idx) => (
-            <SkillItem data={data} key={idx} />
-            )):
-            null
-          }
-      </div>
-    </div>
+    
+    <Wrapper subTitle={"What we do"} title={"We provide capabilities on these"}>
+        <div className="row" style={{paddingTop : "20px"}}>
+            {skillData.map((data, idx) => (
+                <SkillItem data={data} key={idx} />
+              ))}
+        </div>
+    </Wrapper>
   );
 }
 

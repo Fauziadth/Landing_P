@@ -10,18 +10,16 @@ const PartnerBar = () => {
   
   return (
     <div className="part">
-        <div className="inner w9">
+        <div className="inner w9 flex-nowrap">
             <div className="partner_item col-auto">
                 <img src={partner_1} alt="partner_1"/>
             </div>
             <div className="partner_item col-auto">
                 <img src={partner_2} alt="partner_2"/>
             </div>
-            <div className="w-100"/>
             <div className="partner_item col-auto">
                 <img src={partner_3} alt="partner_3"/>
             </div>
-            <div className="w-100"/>
             <div className="partner_item col-auto">
                 <img src={partner_4} alt="partner_4"/>
             </div>

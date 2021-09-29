@@ -1,22 +1,26 @@
 import React, { Fragment } from 'react';
 import { workProcess as dataList } from '../../content/data';
+import Wrapper from '../Part/Wrapper';
 
 
 const Item = ({ data }) => (
-  <div className="wp_item col-md-4">
-    <div>
-        <div className="flex-center" style={{backgroundColor:'#1c5574', borderRadius: "3px"}}><h3 style={{color:'#f68a12'}}>{data.title.charAt(0)}</h3></div>
-        <h3 style={{color:'#1c5574'}}>{data.title.slice(1)}</h3>
+  <div className="row">
+    <div className="col-auto">
+        <div className="process-init"><h3>{data.title.charAt(0)}</h3></div>
     </div>
-    <p>{data.desc}</p>
+    <div className="col-auto">
+        <h3 style={{color:'#1c658d', fontWeight : '600'}}>{data.title}</h3>
+        <p>{data.desc}</p>
+    </div>
   </div>
 );
 
 const WorkProcessBar = () => {
   
   return (
-    <div className="part">
-      <div className="inner w9">
+    <Wrapper subTitle={"Our processes"} title={"To serve the best result"}>
+      <div className="row justify-content-center align-items-center">
+        <div className="col-10">
           {dataList.map((data, idx) => (
             <Fragment>
               <Item data={data} key={idx} />
@@ -24,8 +28,9 @@ const WorkProcessBar = () => {
             </Fragment>
             ))
           }
+        </div>
       </div>
-    </div>
+    </Wrapper>
   );
 }
 

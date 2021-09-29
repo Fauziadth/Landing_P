@@ -1,13 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../Pics/Logo.png'
 
 
 const navData = [
-  {
-      id: 'about',
-      value: 'About',
-      path: '/'
-   },
    {
        id: 'portofolio',
        value: 'Portofolio',
@@ -27,7 +23,7 @@ const navData = [
 
 const navDataTop = {
     id: 'Welcome',
-    value: 'PA',
+    value: <img src={logo} alt="logo" style={{height : '22px'}}/>,
     path: '/'
 }
 

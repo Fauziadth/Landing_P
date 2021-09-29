@@ -13,9 +13,9 @@ const App = () => {
     return (
         <div className="App">
             <Router basename="/Landing_P">
-                <nav id="navbar">
+                {/* <nav id="navbar">
                     <NavBar/>
-                </nav>
+                </nav> */}
 
                 <Route path="/" exact component={Home} />
                 <Route path="/portofolio" component={Portofolio} />
