@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 import { dataSkill as skillData } from '../../content/data';
 import Wrapper from '../Part/Wrapper';
 
@@ -24,11 +25,11 @@ const SkillBar = () => {
   return (
     
     <Wrapper subTitle={"What we do"} title={"We provide capabilities on these"}>
-        <div className="row" style={{paddingTop : "20px"}}>
-            {skillData.map((data, idx) => (
-                <SkillItem data={data} key={idx} />
-              ))}
-        </div>
+      <div className="row" style={{paddingTop : "20px"}}>
+          {skillData.map((data, idx) => (
+              <SkillItem data={data} key={idx} />
+            ))}
+      </div>
     </Wrapper>
   );
 }

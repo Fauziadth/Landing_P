@@ -4,7 +4,7 @@ import { Button } from 'antd';
 import ValuesBar from '../Content/ValuesBar';
 import SkillBar from '../Content/SkillBar';
 import WorkProcessBar from '../Content/WorkProcessBar';
-// import PartnerBar from '../Content/PartnerBar';
+import PartnerBar from '../Content/PartnerBar';
 import Logo from '../../Pics/Logo_main.png';
 import may from '../../Pics/May2.png';
 
@@ -56,6 +56,9 @@ const Home = () => {
             </div>
             <div>
                 <WorkProcessBar/>
+            </div>
+            <div>
+                <PartnerBar/>
             </div>
         </Fragment>
     )

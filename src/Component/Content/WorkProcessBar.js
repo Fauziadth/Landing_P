@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Fade } from 'react-reveal';
 import { workProcess as dataList } from '../../content/data';
 import Wrapper from '../Part/Wrapper';
 
@@ -19,15 +20,14 @@ const WorkProcessBar = () => {
   
   return (
     <Wrapper subTitle={"Our processes"} title={"To serve the best result"}>
-      <div className="row justify-content-center align-items-center">
+      <div className="row justify-content-center align-items-center" style={{paddingTop : '20px'}}>
         <div className="col-10">
-          {dataList.map((data, idx) => (
-            <Fragment>
-              <Item data={data} key={idx} />
-              {idx === 1 && <div className={'w-100'}/>}
-            </Fragment>
-            ))
-          }
+          <Fade left>
+            {dataList.map((data, idx) => (
+                <Item data={data} key={idx} />
+              ))
+            }
+          </Fade>
         </div>
       </div>
     </Wrapper>
