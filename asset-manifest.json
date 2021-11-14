@@ -1,19 +1,24 @@
 {
   "files": {
     "main.css": "/Landing_P/static/css/main.6537cbc2.chunk.css",
-    "main.js": "/Landing_P/static/js/main.0aac901a.chunk.js",
-    "main.js.map": "/Landing_P/static/js/main.0aac901a.chunk.js.map",
+    "main.js": "/Landing_P/static/js/main.54122a8d.chunk.js",
+    "main.js.map": "/Landing_P/static/js/main.54122a8d.chunk.js.map",
     "runtime~main.js": "/Landing_P/static/js/runtime~main.8f48f71a.js",
     "runtime~main.js.map": "/Landing_P/static/js/runtime~main.8f48f71a.js.map",
     "static/css/2.5dff0f95.chunk.css": "/Landing_P/static/css/2.5dff0f95.chunk.css",
-    "static/js/2.d99bc0ab.chunk.js": "/Landing_P/static/js/2.d99bc0ab.chunk.js",
-    "static/js/2.d99bc0ab.chunk.js.map": "/Landing_P/static/js/2.d99bc0ab.chunk.js.map",
+    "static/js/2.f4f6c88d.chunk.js": "/Landing_P/static/js/2.f4f6c88d.chunk.js",
+    "static/js/2.f4f6c88d.chunk.js.map": "/Landing_P/static/js/2.f4f6c88d.chunk.js.map",
     "index.html": "/Landing_P/index.html",
-    "precache-manifest.12cfa0e955907e015e67768415be025a.js": "/Landing_P/precache-manifest.12cfa0e955907e015e67768415be025a.js",
+    "precache-manifest.99ce0225bfb9a65585a7fb6ab3feedeb.js": "/Landing_P/precache-manifest.99ce0225bfb9a65585a7fb6ab3feedeb.js",
     "service-worker.js": "/Landing_P/service-worker.js",
     "static/css/2.5dff0f95.chunk.css.map": "/Landing_P/static/css/2.5dff0f95.chunk.css.map",
     "static/css/main.6537cbc2.chunk.css.map": "/Landing_P/static/css/main.6537cbc2.chunk.css.map",
     "static/media/Logo-white.png": "/Landing_P/static/media/Logo-white.7bbe8bec.png",
+    "static/media/Partner_1.png": "/Landing_P/static/media/Partner_1.1c22654e.png",
+    "static/media/Partner_2.png": "/Landing_P/static/media/Partner_2.7562a222.png",
+    "static/media/Partner_3.png": "/Landing_P/static/media/Partner_3.e2513ddb.png",
+    "static/media/Partner_4.png": "/Landing_P/static/media/Partner_4.784e4e2f.png",
+    "static/media/Partner_5.png": "/Landing_P/static/media/Partner_5.2894d127.png",
     "static/media/App.scss": "/Landing_P/static/media/bg_main.917033ce.jpg"
   }
 }
