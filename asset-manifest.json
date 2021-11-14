@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Landing_P/static/css/main.6537cbc2.chunk.css",
-    "main.js": "/Landing_P/static/js/main.61132fcd.chunk.js",
-    "main.js.map": "/Landing_P/static/js/main.61132fcd.chunk.js.map",
+    "main.js": "/Landing_P/static/js/main.17313bc3.chunk.js",
+    "main.js.map": "/Landing_P/static/js/main.17313bc3.chunk.js.map",
     "runtime~main.js": "/Landing_P/static/js/runtime~main.8f48f71a.js",
     "runtime~main.js.map": "/Landing_P/static/js/runtime~main.8f48f71a.js.map",
     "static/css/2.5dff0f95.chunk.css": "/Landing_P/static/css/2.5dff0f95.chunk.css",
-    "static/js/2.1bb29620.chunk.js": "/Landing_P/static/js/2.1bb29620.chunk.js",
-    "static/js/2.1bb29620.chunk.js.map": "/Landing_P/static/js/2.1bb29620.chunk.js.map",
+    "static/js/2.f4f6c88d.chunk.js": "/Landing_P/static/js/2.f4f6c88d.chunk.js",
+    "static/js/2.f4f6c88d.chunk.js.map": "/Landing_P/static/js/2.f4f6c88d.chunk.js.map",
     "index.html": "/Landing_P/index.html",
-    "precache-manifest.7ebd50114418be5d50962636fb9c668d.js": "/Landing_P/precache-manifest.7ebd50114418be5d50962636fb9c668d.js",
+    "precache-manifest.50b4090e15f6a7b0abc1532dfe2e0198.js": "/Landing_P/precache-manifest.50b4090e15f6a7b0abc1532dfe2e0198.js",
     "service-worker.js": "/Landing_P/service-worker.js",
     "static/css/2.5dff0f95.chunk.css.map": "/Landing_P/static/css/2.5dff0f95.chunk.css.map",
     "static/css/main.6537cbc2.chunk.css.map": "/Landing_P/static/css/main.6537cbc2.chunk.css.map",
@@ -19,12 +19,6 @@
     "static/media/Partner_3.png": "/Landing_P/static/media/Partner_3.e2513ddb.png",
     "static/media/Partner_4.png": "/Landing_P/static/media/Partner_4.784e4e2f.png",
     "static/media/Partner_5.png": "/Landing_P/static/media/Partner_5.2894d127.png",
-    "static/media/Porto1.png": "/Landing_P/static/media/Porto1.d441c7f0.png",
-    "static/media/Porto2.png": "/Landing_P/static/media/Porto2.3b369d84.png",
-    "static/media/Porto3.png": "/Landing_P/static/media/Porto3.cd9fa175.png",
-    "static/media/Porto4.png": "/Landing_P/static/media/Porto4.37f46767.png",
-    "static/media/Porto5.png": "/Landing_P/static/media/Porto5.1a276f4e.png",
-    "static/media/Porto6.png": "/Landing_P/static/media/Porto6.31ea8a5f.png",
     "static/media/App.scss": "/Landing_P/static/media/bg_main.917033ce.jpg"
   }
 }

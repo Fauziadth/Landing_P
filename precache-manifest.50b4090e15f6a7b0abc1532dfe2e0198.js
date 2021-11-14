@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e562ab703eb0c93b749a7bf23f5e565",
+    "revision": "e0e3e631e0cd26045a6adbec6689fb82",
     "url": "/Landing_P/index.html"
   },
   {
-    "revision": "3603ebe6e3fcc16ccf53",
+    "revision": "9397d1a503d3f7510ec5",
     "url": "/Landing_P/static/css/2.5dff0f95.chunk.css"
   },
   {
-    "revision": "777af2b4ded1342499b0",
+    "revision": "981b84c7d36d14c83a0a",
     "url": "/Landing_P/static/css/main.6537cbc2.chunk.css"
   },
   {
-    "revision": "3603ebe6e3fcc16ccf53",
-    "url": "/Landing_P/static/js/2.1bb29620.chunk.js"
+    "revision": "9397d1a503d3f7510ec5",
+    "url": "/Landing_P/static/js/2.f4f6c88d.chunk.js"
   },
   {
-    "revision": "777af2b4ded1342499b0",
-    "url": "/Landing_P/static/js/main.61132fcd.chunk.js"
+    "revision": "981b84c7d36d14c83a0a",
+    "url": "/Landing_P/static/js/main.17313bc3.chunk.js"
   },
   {
     "revision": "a30a7c461c2529bd7eb9",
@@ -46,30 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2894d1270e07ff3bb70f26793985e6da",
     "url": "/Landing_P/static/media/Partner_5.2894d127.png"
-  },
-  {
-    "revision": "d441c7f033a227fcfa8a7ab5969fe613",
-    "url": "/Landing_P/static/media/Porto1.d441c7f0.png"
-  },
-  {
-    "revision": "3b369d84135db61bef3ed97818024785",
-    "url": "/Landing_P/static/media/Porto2.3b369d84.png"
-  },
-  {
-    "revision": "cd9fa1753d218e79be6d5e132e74b354",
-    "url": "/Landing_P/static/media/Porto3.cd9fa175.png"
-  },
-  {
-    "revision": "37f467678e7ddd72beb775ab77a9894a",
-    "url": "/Landing_P/static/media/Porto4.37f46767.png"
-  },
-  {
-    "revision": "1a276f4e20c06a4ed6d18e4de18c226e",
-    "url": "/Landing_P/static/media/Porto5.1a276f4e.png"
-  },
-  {
-    "revision": "31ea8a5fdf3d0365564764217727bf9d",
-    "url": "/Landing_P/static/media/Porto6.31ea8a5f.png"
   },
   {
     "revision": "917033ce2edb35129a527275255387f4",
