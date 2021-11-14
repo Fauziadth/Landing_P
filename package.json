@@ -8,16 +8,19 @@
   },
   "dependencies": {
     "antd": "^4.16.8",
+    "bootstrap": "^5.1.3",
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
+    "react-bootstrap": "^2.0.2",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "react-scroll": "^1.7.12"
+    "react-scroll": "^1.7.12",
+    "react-slideshow-image": "^3.6.0"
   },
   "scripts": {
     "start": "react-scripts start",

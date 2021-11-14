@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Fade } from 'react-reveal';
 import { workProcess as dataList } from '../../content/data';
 import Wrapper from '../Part/Wrapper';

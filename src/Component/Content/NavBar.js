@@ -1,53 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import logo from '../../Pics/Logo.png'
+import brandLogo from '../../Pics/Logo-white.png';
 
-
-const navData = [
-   {
-       id: 'portofolio',
-       value: 'Portofolio',
-       path: 'portofolio'
-    },
-    {
-        id: 'catalogue',
-        value: 'Catalogue',
-        path: 'catalogue'
-     },
-     {
-         id: 'Porto',
-         value: 'Contact Us',
-         path: 'contact'
-      },
-]
-
-const navDataTop = {
-    id: 'Welcome',
-    value: <img src={logo} alt="logo" style={{height : '22px'}}/>,
-    path: '/'
+const notTransparentVariant = ['/portofolio','/contact']
+const BasePath = "/Landing_P";
+const checkIfTransparent = (pathCheck) => {
+    return (notTransparentVariant.findIndex( path => (`${BasePath}${path}`) === pathCheck) === -1);
 }
 
 export default function NavBar (){
+    const path = window.location.pathname;
+    const [isTransparent, setTransparent] = useState(checkIfTransparent(path));
+    const [isSticky, setSticky] = useState(false);
+    window.onscroll = () => {
+        if (window.scrollY > 50) {
+            setSticky(true);
+        } else {
+            setSticky(false);
+        }
+    };
+    const changeLink = (path) => {
+        setTransparent(checkIfTransparent(path))
+    }
     return (
-        <div className='inner'>
-
-            <ul>
-                <NavItem data = {navDataTop} key={navDataTop.value}/>
-            </ul>
-
-            <ul className="content">
-                {navData.map((data,idx)=>(
-                    <NavItem data={data} key={idx}/>    
-                ))}
-            </ul>
-        </div>
+        <Navbar bg={!isTransparent || isSticky ? 'blue' : 'transparent' } variant='dark' expand="lg" fixed={"top"}>
+            <Container>
+                <Navbar.Brand href={`${BasePath}/`}><img src={brandLogo} alt='home' style={{maxHeight : '40px'}}/></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+                    <Nav className="justify-content-end">
+                        <Link className="nav-link" onClick={() => changeLink(`${BasePath}/`)} to={`/`}>Home</Link>
+                        <Link className="nav-link" onClick={() => changeLink(`${BasePath}/portofolio`)} to={`/portofolio`}>Porto</Link>
+                        <Link className="nav-link" onClick={() => changeLink(`${BasePath}/contact`)} to={`/contact`}>Contact</Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }
-
-const NavItem = ({ data }) => (
-    <li>
-        <Link to={data.path}>
-            {data.value}
-        </Link>
-    </li>
-);
