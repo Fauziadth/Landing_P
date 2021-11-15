@@ -10,7 +10,7 @@ import Wrapper from '../Part/Wrapper';
 const PartnerBar = () => {
   
   return (
-    <Wrapper subTitle={"Our partners"} title={"To bring our very best"}>
+    <Wrapper subTitle={"Our partners"} title={"To bring our very best"} direction="left">
         <div className="row justify-content-md-center" style={{paddingTop : '20px'}}>
             <div className="col-2" style={{display : 'flex', alignItems: 'center'}}>
                 <img src={partner_1} style={{maxWidth : '100%'}} alt="partner_1"/>

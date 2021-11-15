@@ -7,7 +7,7 @@ import Wrapper from '../Part/Wrapper';
 const ValuesBar = () => {
   
   return (
-    <Wrapper subTitle={"Our Value"} title={"What you can expect from ours"}>
+    <Wrapper subTitle={"Our Value"} title={"What you can expect from ours"} direction="left">
       <div className="row justify-content-center align-items-center">
           <div className="col-10">
               <div style={{marginTop : "30px" , marginBottom : "30px"}}>

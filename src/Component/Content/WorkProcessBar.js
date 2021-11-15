@@ -19,7 +19,7 @@ const Item = ({ data }) => (
 const WorkProcessBar = () => {
   
   return (
-    <Wrapper subTitle={"Our processes"} title={"To serve the best result"}>
+    <Wrapper subTitle={"Our processes"} title={"To serve the best result"} direction="left">
       <div className="row justify-content-center align-items-center" style={{paddingTop : '20px'}}>
         <div className="col-10">
           <Fade left>

@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import Fade from 'react-reveal';
 import Footer from '../Content/Footer';
 import Wrapper from '../Part/Wrapper';
 

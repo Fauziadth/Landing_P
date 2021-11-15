@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Redirect, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'antd/dist/antd.css';
-import 'react-slideshow-image/dist/styles.css'
 import '../Styles/bootstrap-grid.css';
 import '../Styles/App.scss';
 import NavBar from './Content/NavBar';
