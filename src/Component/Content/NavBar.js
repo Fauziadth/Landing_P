@@ -21,6 +21,7 @@ export default function NavBar (){
         }
     };
     const changeLink = (path) => {
+        window.scrollTo(0, 0);
         setTransparent(checkIfTransparent(path))
     }
     return (

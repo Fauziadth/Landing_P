@@ -13,11 +13,11 @@ const ValuesBar = () => {
               <div style={{marginTop : "30px" , marginBottom : "30px"}}>
                   <Fade left>
                     {dataList.map((data, idx) => (
-                          <div key={idx} className="row" style={{marginBottom : "30px"}}>
-                              <div className="col-1">
+                          <div key={idx} style={{display: 'grid', gridTemplateColumns: '35px auto', marginBottom : "30px"}}>
+                              <div>
                                 <img src={value_pic} alt="value_n" style={{height : '30px'}}/>
                               </div>
-                              <div className="col-11" style={{fontSize : "18px", fontWeight : '600'}}>{data}</div>
+                              <div style={{fontSize : "18px", fontWeight : '600'}}>{data}</div>
                           </div>
                       ))
                     }

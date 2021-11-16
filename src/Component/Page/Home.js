@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Fade from 'react-reveal';
-import { Button } from 'antd';
+// import { Button } from 'antd';
 import ValuesBar from '../Content/ValuesBar';
 import SkillBar from '../Content/SkillBar';
 import WorkProcessBar from '../Content/WorkProcessBar';
@@ -20,7 +20,7 @@ const Home = () => {
                                     and renewable energy 
                                     to reach your sustainability.`}</h1>
                                 <h3>Our team brings a diverse skill set with impressive experience</h3>
-                                <Button ghost>READ MORE</Button>
+                                {/* <Button ghost>READ MORE</Button> */}
                             </div>
                         </Fade>
                     </div>

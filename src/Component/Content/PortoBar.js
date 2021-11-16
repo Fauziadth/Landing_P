@@ -51,7 +51,7 @@ const PortoBar = () => {
     }
 
     return (
-        <Wrapper subTitle={"Our product and success story"} title={"What we have done"} style={{ minHeight: '90vh', paddingTop: '30px' }} center>
+        <Wrapper subTitle={"Our product and success story"} title={"What we have done"} style={{ minHeight: '90vh', paddingTop: '90px' }} center>
             <div className="row justify-content-center align-items-center">
                 <Carousel
                     autoplay
@@ -73,6 +73,7 @@ const PortoBar = () => {
                         </div>
                     ))}
                 </Carousel>
+                <div style={{marginTop : '10px'}}/>
                 <Carousel
                     effect="fade"
                     dots={false}
@@ -80,7 +81,7 @@ const PortoBar = () => {
                 >
                     {slideShow.map((img, idx) => (
                         <div key={idx}>
-                            <h1 style={{ textAlign: 'center' }}>{img.title}</h1>
+                            <h3 style={{ textAlign: 'center', marginBottom: '9px' }}>{img.title}</h3>
                         </div>
                     ))}
                 </Carousel>
