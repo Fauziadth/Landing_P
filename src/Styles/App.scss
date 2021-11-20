@@ -182,12 +182,23 @@ nav{
 }
 
 .footer_custom {
-  height:150px;
+  height:200px;
+  padding-top: 30px;
   background-color: #{$PrimaryColor};
+
+  * {
+    color: #{$White1};
+  }
+
+  p {
+    margin: 0;
+  }
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: white;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 @media only screen and (min-width: 600px) {
